@@ -6,9 +6,11 @@ https://www.youtube.com/watch?v=eQZdPlMH-X8
 2) So the recorder.py script will run on startup we will create a service. 
 
 Create: 
+
 sudo nano /etc/systemd/system/camera-capture.service
 
 Paste:
+
 [Unit]
 Description=Long-duration camera capture
 After=multi-user.target
@@ -27,10 +29,13 @@ WantedBy=multi-user.target
 
 
 sudo systemctl daemon-reload
+
 sudo systemctl enable camera-capture.service
+
 sudo systemctl start camera-capture.service
 
 
 Video of Dash Cam in action:
+
 https://www.youtube.com/watch?v=T6Gz-dZnkSY
 
