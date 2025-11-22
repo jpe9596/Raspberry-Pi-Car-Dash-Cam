@@ -1,9 +1,11 @@
 1) The Raspberry Pi will be utilizing the vehicles power supply; therefore, we will perform commands so that the exteral SSD automatically mounts to the Pi after reboot. 
 
-Perform the simple commands outlined in this straightforward video tutorial created by SpaceRex, so that the external SSD mounts onto Raspberry Pi on reboot:
+Perform the commands outlined in this straightforward video tutorial created by SpaceRex, so that the external SSD mounts onto Raspberry Pi on reboot:
 https://www.youtube.com/watch?v=eQZdPlMH-X8
 
-2) So the recorder.py script will run on startup we will create a service. 
+2) Create recorder.py script.
+
+3) So the recorder.py script will run on startup we will create a service. 
 
 Create: 
 
