@@ -20,7 +20,7 @@ Type=simple
 User=pi
 Group=pi
 ExecStart=/usr/bin/python3 /home/pi/recorder.py
-WorkingDirectory=/home/juan
+WorkingDirectory=/home/pi
 Restart=always
 RestartSec=10
 
